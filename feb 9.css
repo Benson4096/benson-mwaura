@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: 720px;
+  max-width: 90%;
+  display: flex;
+  overflow:auto;
+  border-radius: 20px;
+  box shadow: 0 10px 30px rgba(0,0,0,0.1);
+  
+ 
+}
+
+.result {
+flex:1;
+  background: linear-gradient(to bottom, #6366f1, #4f46e5);
+  color: white;
+  text-align: center;
+  padding:40px 30px;
+  border-radius: 20px;
+}
+
+
+
+
+
+.circle {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 20px;
+  border-radius:50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: grid;
+  place-items: center;
+}
+
+.circle-innner {
+  width: 120px;
+  height: 120px;
+  background: #4f46e5;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.score {
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.of {
+  font-size: 1rem;
+  opacity: 0.8;
+  line-height: 2;
+  }
+
+.great {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.result p {
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 0.95;
+}
+
+.summary {
+  flex: 1.6;
+  background: rgba(216, 220, 222, 0.966);
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+
+.summary h2 {
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  background: #f1f5f9;
+  font-size: 1.1rem;
+}
+.reaction{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:14px 16px;
+  margin-bottom:12px;
+  border-radius:10px;
+  background:#f5adad;
+  
+}
+
+.memory{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:14px 16px;
+  margin-bottom:12px;
+  border-radius:10px;
+  background:#d3ed87;
+}
+.verbal{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:14px 16px;
+  margin-bottom:12px;
+  border-radius:10px;
+  background:#409252;
+}
+.visual{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:14px 16px;
+  margin-bottom:12px;
+  border-radius:10px;
+  background:#9b7993;
+}
+
+.item span:first-child {
+  font-size: 1.4rem;
+  margin-right: 12px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 16px;
+  background: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0f172a;
+}
+
+@media (max-width: 700px) {
+  .card { flex-direction: column; }
+}
