@@ -1,0 +1,39 @@
+/*universal selector*/
+.main{
+    display:flex;
+    justify-content:space-around; 
+    gap:5rem;
+    background-color:bisque
+.left{
+    display: flex;
+    flex-direction: column;
+     display: flex;
+     grid-template-columns: repeat(3,1fr);
+     gap: 3re
+
+    .left-top{
+                  .h1{
+            font-size:medium;
+            font-family: sans-serif;
+            font-style: oblique;
+            font-weight: 400 ;
+            font-family:fantasy;
+        }
+        .button{
+            width: 100px;
+            height: 70px;
+            border-radius: 20px;
+            margin-left: 8rem;
+            margin-right: 2rem;
+            cursor: pointer;
+        }
+      
+    }
+         
+
+
+
+
+}
+
+}
